@@ -4,7 +4,7 @@
 # Orca Movies | Telegram Bot
 
 > **A smart and professional movie & TV show assistant on Telegram**
-> Powered by AI search, verified global ratings, organized download links, and automated release tracking for new episodes and qualities.
+> Powered by AI search, verified global ratings, curated collections, and automated tracking for new episodes and releases.
 
 ![Platform](https://img.shields.io/badge/Platform-Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)
 ![Language](https://img.shields.io/badge/Language-English_%7C_Persian-informational?style=for-the-badge)
@@ -45,6 +45,7 @@ Powered by an **AI-driven search engine**, it effortlessly recognizes titles eve
 * **Daily Trending Hub:** Live feeds featuring the most popular and trending titles worldwide.
 * **Cast & Crew Profiles:** Biographies, ages, birth dates, and curated top-rated filmographies for actors and directors.
 * **Telegram Inline Mode Support:** Search, preview, and share media cards directly in any chat or group.
+* **Dedicated Subtitle Search:** Quick access to subtitle files in multiple languages.
 
 ---
 
@@ -57,17 +58,9 @@ Powered by an **AI-driven search engine**, it effortlessly recognizes titles eve
 
 ---
 
-### ◈ Download & Media Streaming
-* **Structured Quality Sorting:** Cleanly categorized links sorted by resolution (`4K`, `1080p`, `720p`, `BluRay`, `WEB-DL`, `x265 10bit`).
-* **Batch Season Links:** Conveniently copy all episode links of an entire season in one click for download managers.
-* **Online Streaming Support:** Quick guide and links for direct online streaming via popular video players (VLC, KMPlayer, PotPlayer).
-* **Dedicated Subtitle Search:** Quick access to download subtitle files in multiple languages.
-
----
-
 ### ◈ Automated Release Tracker
-* **HD Quality Release Alerts:** Follow cinema/unreleased movies and receive automatic notifications as soon as high-quality releases (WEB-DL / BluRay) drop.
-* **New Episode Notifications:** Follow ongoing TV shows to get instant alerts whenever a new episode is aired and available.
+* **Movie Release Alerts:** Follow upcoming movies and get notified as soon as they are officially released.
+* **New Episode Notifications:** Follow ongoing TV shows to get instant alerts whenever a new episode airs.
 
 ---
 
@@ -82,7 +75,7 @@ Powered by an **AI-driven search engine**, it effortlessly recognizes titles eve
 ### ◈ Personalization & User Experience
 * **Full Bilingual Interface:** Seamless one-tap switching between **English** and **Persian** with native RTL formatting.
 * **Personal Watchlist (Saved):** Bookmark and save favorite titles for quick access anytime.
-* **Built-in Help Center:** Step-by-step guides for Search, Download, Subtitles, Follow & Alerts, Lists & Trending, and Saved.
+* **Built-in Help Center:** Step-by-step guides for Search, Subtitles, Follow & Alerts, Lists & Trending, and Saved.
 
 ---
 
@@ -95,7 +88,7 @@ Powered by an **AI-driven search engine**, it effortlessly recognizes titles eve
 | `/random` | Get high-rated random recommendations by genre |
 | `/lists` | Browse curated collections (IMDb, Letterboxd, genres) |
 | `/help` | Open the step-by-step help center |
-| `/sub` | Search and download subtitles |
+| `/sub` | Search subtitles in multiple languages |
 | `/language` | Switch bot interface language (English / Persian) |
 | `@BotUsername` | Search and share media cards via Inline mode in any chat |
 
@@ -105,8 +98,8 @@ Powered by an **AI-driven search engine**, it effortlessly recognizes titles eve
 
 * **100% Serverless Edge Architecture:** Lightning-fast response times with minimal latency.
 * **Edge AI Integration:** Natural language query understanding and phonetic title resolution using modern language models.
-* **Multi-Source Aggregation:** Download options are merged from multiple sources with automatic de-duplication and best-quality-first ranking.
-* **Strict Title Matching:** Year-aware matching guards against returning links for similarly named but wrong titles.
+* **Multi-Source Aggregation:** Ratings and metadata are aggregated from multiple reference sources with automatic de-duplication and consistency checks.
+* **Strict Title Matching:** Year-aware matching guards against confusing similarly named but different titles.
 * **Persistent Storage:** User profiles, watchlists, and follows are stored reliably in a managed database.
 * **Automated Background Jobs:** Release checks and notifications run on a schedule without manual intervention.
 * **Multi-Layer Smart Caching:** Persistent edge caching to ensure high availability and rapid data retrieval.
