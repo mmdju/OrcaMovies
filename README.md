@@ -26,7 +26,7 @@ Access and test the bot directly on Telegram:
 
 **Orca Movies** is a comprehensive, ultra-fast, and intelligent Telegram bot engineered as a complete cinema companion for movie and TV series enthusiasts.
 
-Powered by an **AI-driven search engine**, it effortlessly recognizes titles even with typos, phonetic variations, or multi-language queries, delivering a smooth, seamless, and elegant experience for discovering, tracking, and accessing media content.
+Powered by an **AI-driven search engine**, it effortlessly recognizes titles even with typos, phonetic variations, or multi-language queries, delivering a smooth, seamless, and elegant experience for discovering and tracking movies and shows.
 
 > Live preview of movie cards, metadata, and instant ratings:
 
@@ -45,7 +45,6 @@ Powered by an **AI-driven search engine**, it effortlessly recognizes titles eve
 * **Daily Trending Hub:** Live feeds featuring the most popular and trending titles worldwide.
 * **Cast & Crew Profiles:** Biographies, ages, birth dates, and curated top-rated filmographies for actors and directors.
 * **Telegram Inline Mode Support:** Search, preview, and share media cards directly in any chat or group.
-* **Dedicated Subtitle Search:** Quick access to subtitle files in multiple languages.
 
 ---
 
@@ -67,7 +66,7 @@ Powered by an **AI-driven search engine**, it effortlessly recognizes titles eve
 ### ◈ Group Support
 * **Works Inside Groups:** Add the bot to any group and use it alongside friends.
 * **Command-Only Responses:** In groups the bot only answers commands, so normal chat stays clean with no spam.
-* **Supported Group Commands:** `/search`, `/random`, `/lists`, `/help`, `/sub`, `/language`.
+* **Supported Group Commands:** `/search`, `/random`, `/lists`, `/help`, `/language`.
 * **Example:** `/search inception` — the result, save and follow buttons all work right inside the group.
 
 ---
@@ -75,7 +74,7 @@ Powered by an **AI-driven search engine**, it effortlessly recognizes titles eve
 ### ◈ Personalization & User Experience
 * **Full Bilingual Interface:** Seamless one-tap switching between **English** and **Persian** with native RTL formatting.
 * **Personal Watchlist (Saved):** Bookmark and save favorite titles for quick access anytime.
-* **Built-in Help Center:** Step-by-step guides for Search, Subtitles, Follow & Alerts, Lists & Trending, and Saved.
+* **Built-in Help Center:** Step-by-step guides for Search, Follow & Alerts, Lists & Trending, and Saved.
 
 ---
 
@@ -88,7 +87,6 @@ Powered by an **AI-driven search engine**, it effortlessly recognizes titles eve
 | `/random` | Get high-rated random recommendations by genre |
 | `/lists` | Browse curated collections (IMDb, Letterboxd, genres) |
 | `/help` | Open the step-by-step help center |
-| `/sub` | Search subtitles in multiple languages |
 | `/language` | Switch bot interface language (English / Persian) |
 | `@BotUsername` | Search and share media cards via Inline mode in any chat |
 
