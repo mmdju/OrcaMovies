@@ -1,4 +1,4 @@
-[🇮🇷 **نسخه فارسی**](./README_FA.md) | [🇬🇧 **English Version**](./README.md)
+[**نسخه فارسی**](./README_FA.md) | [**English Version**](./README.md)
 
 ---
 # Orca Movies | Telegram Bot
@@ -80,7 +80,7 @@ Powered by an **AI-driven search engine**, it effortlessly recognizes titles eve
 ---
 
 ### ◈ Personalization & User Experience
-* **Full Bilingual Interface:** Seamless one-tap switching between **English (🇬🇧)** and **Persian (🇮🇷)** with native RTL formatting.
+* **Full Bilingual Interface:** Seamless one-tap switching between **English** and **Persian** with native RTL formatting.
 * **Personal Watchlist (Saved):** Bookmark and save favorite titles for quick access anytime.
 * **Built-in Help Center:** Step-by-step guides for Search, Download, Subtitles, Follow & Alerts, Lists & Trending, and Saved.
 
