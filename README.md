@@ -3,7 +3,7 @@
 ---
 # Orca Movies | Telegram Bot
 
-> **A smart and professional movie & TV show assistant on Telegram**  
+> **A smart and professional movie & TV show assistant on Telegram**
 > Powered by AI search, verified global ratings, organized download links, and automated release tracking for new episodes and qualities.
 
 ![Platform](https://img.shields.io/badge/Platform-Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)
@@ -28,7 +28,6 @@ Access and test the bot directly on Telegram:
 
 Powered by an **AI-driven search engine**, it effortlessly recognizes titles even with typos, phonetic variations, or multi-language queries, delivering a smooth, seamless, and elegant experience for discovering, tracking, and accessing media content.
 
-
 > Live preview of movie cards, metadata, and instant ratings:
 
 ![Orca Movies Card Preview](https://i.postimg.cc/pTxjJK5g/file-00000000238c8210af6c7922d378211a.png)
@@ -37,7 +36,7 @@ Powered by an **AI-driven search engine**, it effortlessly recognizes titles eve
 
 ## ✦ Features
 
-### ◈ Comprehensive Movie & TV Show Discovery
+### ◈ Discovery & Metadata
 * **Detailed Metadata:** High-resolution posters, storyline summaries, official trailers, age ratings, runtimes, genres, and complete cast & crew listings.
 * **Verified Global Ratings:** Real-time scores simultaneously sourced from **IMDb**, **Rotten Tomatoes**, and **Metacritic**.
 * **Smart AI Search:** Phonetic title matching, typo tolerance, and support for alternative localized titles.
@@ -46,6 +45,15 @@ Powered by an **AI-driven search engine**, it effortlessly recognizes titles eve
 * **Daily Trending Hub:** Live feeds featuring the most popular and trending titles worldwide.
 * **Cast & Crew Profiles:** Biographies, ages, birth dates, and curated top-rated filmographies for actors and directors.
 * **Telegram Inline Mode Support:** Search, preview, and share media cards directly in any chat or group.
+
+---
+
+### ◈ Curated Lists
+* **IMDb Top Charts:** Browse the top-rated movies and TV shows of all time.
+* **Letterboxd Collections:** Hand-picked collections including top films, documentaries, and themed picks.
+* **Award Winners & Franchises:** Dedicated collections such as Oscar winners and major cinematic universes.
+* **Genre Collections for Series:** Curated TV lineups for crime, spy, psychological thriller, hidden gems, long-running shows, and must-watch classics.
+* **Paged Browsing with Poster View:** Flip through pages or open titles with posters in inline view.
 
 ---
 
@@ -63,9 +71,18 @@ Powered by an **AI-driven search engine**, it effortlessly recognizes titles eve
 
 ---
 
+### ◈ Group Support
+* **Works Inside Groups:** Add the bot to any group and use it alongside friends.
+* **Command-Only Responses:** In groups the bot only answers commands, so normal chat stays clean with no spam.
+* **Supported Group Commands:** `/search`, `/random`, `/lists`, `/help`, `/sub`, `/language`.
+* **Example:** `/search inception` — the result, save and follow buttons all work right inside the group.
+
+---
+
 ### ◈ Personalization & User Experience
 * **Full Bilingual Interface:** Seamless one-tap switching between **English (🇬🇧)** and **Persian (🇮🇷)** with native RTL formatting.
 * **Personal Watchlist (Saved):** Bookmark and save favorite titles for quick access anytime.
+* **Built-in Help Center:** Step-by-step guides for Search, Download, Subtitles, Follow & Alerts, Lists & Trending, and Saved.
 
 ---
 
@@ -74,7 +91,10 @@ Powered by an **AI-driven search engine**, it effortlessly recognizes titles eve
 | Command | Description |
 | :--- | :--- |
 | `/start` | Launch the bot and view the main menu |
+| `/search` | Search movies & series (also works in groups, e.g. `/search inception`) |
 | `/random` | Get high-rated random recommendations by genre |
+| `/lists` | Browse curated collections (IMDb, Letterboxd, genres) |
+| `/help` | Open the step-by-step help center |
 | `/sub` | Search and download subtitles |
 | `/language` | Switch bot interface language (English / Persian) |
 | `@BotUsername` | Search and share media cards via Inline mode in any chat |
@@ -85,6 +105,10 @@ Powered by an **AI-driven search engine**, it effortlessly recognizes titles eve
 
 * **100% Serverless Edge Architecture:** Lightning-fast response times with minimal latency.
 * **Edge AI Integration:** Natural language query understanding and phonetic title resolution using modern language models.
+* **Multi-Source Aggregation:** Download options are merged from multiple sources with automatic de-duplication and best-quality-first ranking.
+* **Strict Title Matching:** Year-aware matching guards against returning links for similarly named but wrong titles.
+* **Persistent Storage:** User profiles, watchlists, and follows are stored reliably in a managed database.
+* **Automated Background Jobs:** Release checks and notifications run on a schedule without manual intervention.
 * **Multi-Layer Smart Caching:** Persistent edge caching to ensure high availability and rapid data retrieval.
 
 ---
