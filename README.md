@@ -25,7 +25,9 @@ The bot lives on Telegram — open it here:
 
 **Orca Movies** is a Telegram bot for finding and tracking movies and TV shows.
 
-Search tolerates typos, phonetic spelling, and titles in English or Persian. Ratings are shown from IMDb, Rotten Tomatoes, and Metacritic. The whole interface is bilingual (English/Persian).
+Search tolerates typos, phonetic spelling, and titles in English or Persian. Ratings are shown from IMDb, Rotten Tomatoes, and Metacritic. Plot summaries are auto-translated to Persian. The whole interface is bilingual (English/Persian).
+
+Main menu buttons: Search, Random, Trending, Lists, Help, Saved.
 
 > Movie cards with posters, details, and ratings, right inside Telegram:
 
@@ -37,9 +39,10 @@ Search tolerates typos, phonetic spelling, and titles in English or Persian. Rat
 
 ### Search & details
 
-* **Full details:** posters, plot summaries, trailers, age ratings, runtimes, genres, cast & crew.
+* **Full details:** posters, plot summaries, trailers, age ratings, runtimes, genres, cast & crew, box office.
 * **Three ratings side by side:** IMDb, Rotten Tomatoes, and Metacritic.
-* **Forgiving search:** handles typos, phonetic spelling, and alternative/localized titles.
+* **Forgiving search:** just send a title or tap Search — handles typos, phonetic spelling, and alternative titles. Two modes: Cast (search by actor/director) and Advanced (genre, year, rating filters).
+* **Subtitles (/sub):** pick Persian or English, send the title, get the download link.
 * **Filters:** narrow results by genre, year or decade, minimum rating, and popularity.
 * **Random picks:** get a highly-rated suggestion from your favorite genre.
 * **Trending:** the day's most popular titles, updated regularly.
@@ -65,15 +68,6 @@ Search tolerates typos, phonetic spelling, and titles in English or Persian. Rat
 
 ---
 
-### Groups
-
-* Add the bot to any group and use it with friends.
-* In groups it only answers commands — normal chat stays clean.
-* Group commands: `/search`, `/random`, `/lists`, `/help`, `/language`.
-* Example: `/search inception` — results and buttons work inside the group.
-
----
-
 ### Personalization
 
 * **Two languages:** switch between English and Persian with one tap (full RTL support).
@@ -87,12 +81,14 @@ Search tolerates typos, phonetic spelling, and titles in English or Persian. Rat
 | Command | Description |
 | :--- | :--- |
 | `/start` | Start the bot, show the main menu |
-| `/search` | Search movies & series (also in groups, e.g. `/search inception`) |
 | `/random` | Random highly-rated pick by genre |
-| `/lists` | Browse curated collections (IMDb, Letterboxd, genres) |
-| `/help` | Open the step-by-step help center |
+| `/sub` | Search subtitles (Persian / English) |
 | `/language` | Switch language (English / Persian) |
+| `/lists` | Browse curated collections (also the Lists button) |
+| `/help` | Step-by-step help center (also the Help button) |
 | `@OrcaMoviesBot` | Inline search and share cards in any chat |
+
+The Telegram menu lists start, random, sub, and language. To search, just send a title or tap the Search button.
 
 ---
 
