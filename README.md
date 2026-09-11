@@ -1,10 +1,9 @@
 [**نسخه فارسی**](./README_FA.md) | [**English Version**](./README.md)
 
 ---
-# Orca Movies | Telegram Bot
+# Orca Movies — Telegram Bot
 
-> **A smart and professional movie & TV show assistant on Telegram**
-> Powered by AI search, verified global ratings, curated collections, and automated tracking for new episodes and releases.
+> A Telegram bot for movies & TV shows: search, ratings, curated lists, and alerts for new episodes and releases.
 
 ![Platform](https://img.shields.io/badge/Platform-Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)
 ![Language](https://img.shields.io/badge/Language-English_%7C_Persian-informational?style=for-the-badge)
@@ -13,97 +12,102 @@
 
 ---
 
-## ✦ Live Demo
+## Try it
 
-Access and test the bot directly on Telegram:
+The bot lives on Telegram — open it here:
 
 [![Telegram Bot](https://img.shields.io/badge/Telegram_Bot-@OrcaMoviesBot-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/OrcaMoviesBot)
 [![Telegram Channel](https://img.shields.io/badge/Channel-@OrcaMovies-blue?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/OrcaMovies)
 
 ---
 
-## ◆ About the Project
+## About
 
-**Orca Movies** is a comprehensive, ultra-fast, and intelligent Telegram bot engineered as a complete cinema companion for movie and TV series enthusiasts.
+**Orca Movies** is a Telegram bot for finding and tracking movies and TV shows.
 
-Powered by an **AI-driven search engine**, it effortlessly recognizes titles even with typos, phonetic variations, or multi-language queries, delivering a smooth, seamless, and elegant experience for discovering and tracking movies and shows.
+Search tolerates typos, phonetic spelling, and titles in English or Persian. Ratings are shown from IMDb, Rotten Tomatoes, and Metacritic. The whole interface is bilingual (English/Persian).
 
-> Live preview of movie cards, metadata, and instant ratings:
+> Movie cards with posters, details, and ratings, right inside Telegram:
 
 ![Orca Movies Card Preview](https://i.postimg.cc/pTxjJK5g/file-00000000238c8210af6c7922d378211a.png)
 
 ---
 
-## ✦ Features
+## Features
 
-### ◈ Discovery & Metadata
-* **Detailed Metadata:** High-resolution posters, storyline summaries, official trailers, age ratings, runtimes, genres, and complete cast & crew listings.
-* **Verified Global Ratings:** Real-time scores simultaneously sourced from **IMDb**, **Rotten Tomatoes**, and **Metacritic**.
-* **Smart AI Search:** Phonetic title matching, typo tolerance, and support for alternative localized titles.
-* **Advanced Multi-Filter Search:** Filter and explore titles by genre, release year/decade, minimum rating, and popularity.
-* **Curated Random Suggestions:** Instant high-rated movie and series recommendations tailored to your preferred genre.
-* **Daily Trending Hub:** Live feeds featuring the most popular and trending titles worldwide.
-* **Cast & Crew Profiles:** Biographies, ages, birth dates, and curated top-rated filmographies for actors and directors.
-* **Telegram Inline Mode Support:** Search, preview, and share media cards directly in any chat or group.
+### Search & details
 
----
-
-### ◈ Curated Lists
-* **IMDb Top Charts:** Browse the top-rated movies and TV shows of all time.
-* **Letterboxd Collections:** Hand-picked collections including top films, documentaries, and themed picks.
-* **Award Winners & Franchises:** Dedicated collections such as Oscar winners and major cinematic universes.
-* **Genre Collections for Series:** Curated TV lineups for crime, spy, psychological thriller, hidden gems, long-running shows, and must-watch classics.
-* **Paged Browsing with Poster View:** Flip through pages or open titles with posters in inline view.
+* **Full details:** posters, plot summaries, trailers, age ratings, runtimes, genres, cast & crew.
+* **Three ratings side by side:** IMDb, Rotten Tomatoes, and Metacritic.
+* **Forgiving search:** handles typos, phonetic spelling, and alternative/localized titles.
+* **Filters:** narrow results by genre, year or decade, minimum rating, and popularity.
+* **Random picks:** get a highly-rated suggestion from your favorite genre.
+* **Trending:** the day's most popular titles, updated regularly.
+* **Cast & crew profiles:** bio, birth date, and top titles for actors and directors.
+* **Inline mode:** search and share cards in any chat or group.
 
 ---
 
-### ◈ Automated Release Tracker
-* **Movie Release Alerts:** Follow upcoming movies and get notified as soon as they are officially released.
-* **New Episode Notifications:** Follow ongoing TV shows to get instant alerts whenever a new episode airs.
+### Curated lists
+
+* **IMDb Top charts:** the best-rated movies and shows of all time.
+* **Letterboxd collections:** top films, documentaries, and themed picks.
+* **Awards & franchises:** Oscar winners, major universes, and similar collections.
+* **Series by genre:** crime, spy, psychological thriller, hidden gems, long-runners, classics.
+* **Browsing:** page through lists or open any title with its poster.
 
 ---
 
-### ◈ Group Support
-* **Works Inside Groups:** Add the bot to any group and use it alongside friends.
-* **Command-Only Responses:** In groups the bot only answers commands, so normal chat stays clean with no spam.
-* **Supported Group Commands:** `/search`, `/random`, `/lists`, `/help`, `/language`.
-* **Example:** `/search inception` — the result, save and follow buttons all work right inside the group.
+### Release tracker
+
+* **Movies:** follow upcoming titles, get a message when they release.
+* **Shows:** follow ongoing series, get a message when a new episode airs.
 
 ---
 
-### ◈ Personalization & User Experience
-* **Full Bilingual Interface:** Seamless one-tap switching between **English** and **Persian** with native RTL formatting.
-* **Personal Watchlist (Saved):** Bookmark and save favorite titles for quick access anytime.
-* **Built-in Help Center:** Step-by-step guides for Search, Follow & Alerts, Lists & Trending, and Saved.
+### Groups
+
+* Add the bot to any group and use it with friends.
+* In groups it only answers commands — normal chat stays clean.
+* Group commands: `/search`, `/random`, `/lists`, `/help`, `/language`.
+* Example: `/search inception` — results and buttons work inside the group.
 
 ---
 
-## ✦ Bot Commands Guide
+### Personalization
+
+* **Two languages:** switch between English and Persian with one tap (full RTL support).
+* **Watchlist:** save titles and find them again later.
+* **Help center:** built-in step-by-step guides for search, follows, lists, and saved items.
+
+---
+
+## Bot commands
 
 | Command | Description |
 | :--- | :--- |
-| `/start` | Launch the bot and view the main menu |
-| `/search` | Search movies & series (also works in groups, e.g. `/search inception`) |
-| `/random` | Get high-rated random recommendations by genre |
+| `/start` | Start the bot, show the main menu |
+| `/search` | Search movies & series (also in groups, e.g. `/search inception`) |
+| `/random` | Random highly-rated pick by genre |
 | `/lists` | Browse curated collections (IMDb, Letterboxd, genres) |
 | `/help` | Open the step-by-step help center |
-| `/language` | Switch bot interface language (English / Persian) |
-| `@BotUsername` | Search and share media cards via Inline mode in any chat |
+| `/language` | Switch language (English / Persian) |
+| `@OrcaMoviesBot` | Inline search and share cards in any chat |
 
 ---
 
-## ✦ Technical Highlights & Architecture
+## How it's built
 
-* **100% Serverless Edge Architecture:** Lightning-fast response times with minimal latency.
-* **Edge AI Integration:** Natural language query understanding and phonetic title resolution using modern language models.
-* **Multi-Source Aggregation:** Ratings and metadata are aggregated from multiple reference sources with automatic de-duplication and consistency checks.
-* **Strict Title Matching:** Year-aware matching guards against confusing similarly named but different titles.
-* **Persistent Storage:** User profiles, watchlists, and follows are stored reliably in a managed database.
-* **Automated Background Jobs:** Release checks and notifications run on a schedule without manual intervention.
-* **Multi-Layer Smart Caching:** Persistent edge caching to ensure high availability and rapid data retrieval.
+* **Serverless:** runs on the edge, no servers to manage.
+* **AI search:** understands plain-language queries and resolves titles phonetically.
+* **Multiple sources:** ratings and metadata from several references, de-duplicated and cross-checked.
+* **Year-aware matching:** remakes and same-name titles don't get mixed up.
+* **Storage:** profiles, watchlists, and follows in a managed database.
+* **Scheduled jobs:** release checks and notifications run on their own.
+* **Caching:** edge cache keeps responses fast.
 
 ---
 
-## ✦ Disclaimer
+## Disclaimer
 
-This project is presented as a software portfolio showcase. All movie metadata, imagery, and media information belong to their respective copyright holders and official open databases.
+Portfolio showcase. All movie metadata, posters, and images belong to their copyright holders and the open databases they come from.
