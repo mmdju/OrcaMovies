@@ -104,6 +104,12 @@ The Telegram menu lists start, random, sub, and language. To search, just send a
 
 ---
 
+## Keywords
+
+telegram movie bot, persian movie bot, farsi film bot, movie search bot, imdb ratings bot, tv series tracker bot, subtitle search bot.
+
+---
+
 ## Disclaimer
 
 Portfolio showcase. All movie metadata, posters, and images belong to their copyright holders and the open databases they come from.
