@@ -6,7 +6,8 @@ If you find a security issue related to the Orca Movies bot or this
 showcase repository, please report it privately — do NOT open a public
 issue.
 
-Contact: **https://github.com/mmdju**
+Report via the [Security tab](../../security/advisories/new)
+(Advisories → Report a vulnerability), or contact: **https://github.com/mmdju**
 
 Please include:
 - a short description of the issue,

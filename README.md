@@ -31,7 +31,7 @@ Main menu buttons: Search, Random, Trending, Lists, Help, Saved.
 
 > Movie cards with posters, details, and ratings, right inside Telegram:
 
-![Orca Movies Card Preview](https://i.postimg.cc/pTxjJK5g/file-00000000238c8210af6c7922d378211a.png)
+![Orca Movies Card Preview](assets/screenshot.png)
 
 ---
 
@@ -101,12 +101,6 @@ The Telegram menu lists start, random, sub, and language. To search, just send a
 * **Storage:** profiles, watchlists, and follows in a managed database.
 * **Scheduled jobs:** release checks and notifications run on their own.
 * **Caching:** edge cache keeps responses fast.
-
----
-
-## Keywords
-
-telegram movie bot, persian movie bot, farsi film bot, movie search bot, imdb ratings bot, tv series tracker bot, subtitle search bot.
 
 ---
 
