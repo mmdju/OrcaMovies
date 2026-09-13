@@ -3,6 +3,8 @@
 ---
 # Orca Movies — Telegram Bot
 
+![Orca Movies banner](assets/OrcaMovies.png)
+
 > A Telegram bot for movies & TV shows: search, ratings, curated lists, and alerts for new episodes and releases.
 
 ![Platform](https://img.shields.io/badge/Platform-Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)

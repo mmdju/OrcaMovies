@@ -3,6 +3,8 @@
 ---
 # ربات تلگرام اورکا موویز | Orca Movies
 
+![بنر اورکا موویز](assets/OrcaMovies.png)
+
 > ربات تلگرام فیلم و سریال: جستجو، نمره‌ها، لیست‌های منتخب و خبر قسمت‌ها و انتشارهای جدید.
 
 ![پلتفرم](https://img.shields.io/badge/Platform-Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)
